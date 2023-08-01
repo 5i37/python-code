@@ -1,10 +1,8 @@
 from sympy import *
-
+print("Number","|","Prime Status")
+print("-"*22)
 
 for i in range(1,31):
-    
-    if i == 1 :
-        print(i,"","","|","True")
-    else :
-        print(i,"","","|",isprime(i))
+    print(i,"","","|",isprime(i))
+
 

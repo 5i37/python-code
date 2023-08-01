@@ -8,11 +8,11 @@ for i in m:
         
 print("")        
 print("-"*50)       
-    
+total= 0   
 for i in range(1):
     print(m[i])
     
     for j in range(2):
         print(m[j][i])
     
-        
+
